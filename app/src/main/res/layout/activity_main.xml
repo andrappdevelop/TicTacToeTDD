@@ -18,7 +18,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        tools:text="Start game" />
+        tools:text="@string/game_started_player_1_go" />
 
     <GridLayout
         android:id="@+id/gridLayout"
@@ -29,48 +29,48 @@
         android:rowCount="3">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             tools:src="@mipmap/ic_launcher" />
 
     </GridLayout>
