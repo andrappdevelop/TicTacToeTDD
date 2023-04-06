@@ -14,6 +14,8 @@ class MainViewModelTest {
         val interactor = MainInteractor.Base()
         val viewModel = MainViewModel(communicationResult, communicationUpdate, interactor)
 
+        assertEquals("Player 1, go!", communicationResult.text)
+
         viewModel.tap(CellID.UL)
         assertEquals("Player 2, go!", communicationResult.text)
         assertEquals(CellUi.X(CellID.UL), communicationUpdate.value)
@@ -34,12 +36,12 @@ class MainViewModelTest {
         assertEquals("Player 1 won!", communicationResult.text)
         assertEquals(CellUi.X(CellID.DR), communicationUpdate.value)
 
-        assertEquals(5, communicationResult.count)
-        assertEquals(5, communicationUpdate.count)
+        assertEquals(6, communicationResult.count)
+        assertEquals(6, communicationUpdate.count)
 
         viewModel.tap(CellID.DL)
-        assertEquals(5, communicationResult.count)
-        assertEquals(5, communicationUpdate.count)
+        assertEquals(6, communicationResult.count)
+        assertEquals(6, communicationUpdate.count)
     }
 
     @Test
